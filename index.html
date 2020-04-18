@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="eng0">
+<head>
+    <title>Computer Science & Engineering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="cet">COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href=#home>Home</a></li>
+            <li><a href=#faculty>Faculty</a></li>
+            <li><a href=#syllabus>Syllabus</a></li>
+            <li><a href=#holidays>Holidays</a></li>
+            <li><a href=#gallery>Gallery</a></li>
+            <li class="topnav-right"><a href=#login>Admin Login</a></li>
+            <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    
+    </nav>
+    
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /* change topnav to topnav.responsive*/
+            } else{
+                x.className = "topnav";
+            }
+        }
+    </script>    
+    
+</body>
+    
+    
+    
+    
+</html>
